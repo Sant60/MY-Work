@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santosh Kumar | Front-End Developer</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+        integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+        integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"> -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light" id="topnav">
+        <a class="navbar-brand" id="name-logo" href="#">
+            <img id="logo-img" src="./img/photography.gif" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcollapse"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcollapse">
+            <div class="navbar-nav ml-auto">
+                <a data-aos='fade-down' class="nav-item nav-link active" href="#cover">Home</a>
+                <a data-aos='fade-down' class="nav-item nav-link" href="#about">About</a>
+                <a data-aos='fade-down' class="nav-item nav-link" href="#tech">Tech</a>
+                <a data-aos='fade-down' class="nav-item nav-link" href="#projects">Projects</a>
+            </div>
+        </div>
+    </nav>
+    <div id="cover">
+        <div class="overlay">
+            <h1 data-aos='fade-left' class="display-1">Hello, I'm Santosh</h1>
+            <h1 data-aos='fade-left' class="display-3">Welcome to my Website</h1>
+        </div>
+    </div>
+    <div id="about" class="section">
+        <h1 data-aos='fade-right' class="section-heading">About Me</h1>
+        <div class="container d-flex flex-column align-items-center py-5">
+            <h1 data-aos='fade-up' class="display-3">Santosh Kumar</h1>
+            <h1 data-aos='fade-up' class="display-4">
+                I'm a
+                <span class="display-4" id="traits"
+                    traits='["Frontend Developer", "Competitive Programmer", "Musician"]'></span>
+            </h1>
+            <hr>
+            <div id="intro" class="pt-5">
+                <div class="row">
+                    <div class="col-lg-5 mb-4 mb-md-0 col img-col">
+                        <div data-aos='fade-right' class="img-fluid rounded-circle" alt="Profile Image"
+                            id="profile-img"></div>
+                    </div>
+                    <div data-aos='fade-left' class="col-lg-7 col">
+                        <div class="lead">
+                            <strong class="lead">Date of Birth : </strong>
+                            8 July 2003
+                        </div>
+                        <div class="lead">
+                            <strong class="lead">Phone : </strong>
+                            +91 6392607419
+                        </div>
+                        <div class="lead">
+                            <strong class="lead">City : </strong>
+                            Lucknow, India
+                        </div>
+                        <div class="lead">
+                            <strong class="lead">Email : </strong>
+                            santosh8978kumar@gmail.com
+                        </div>
+                        <div class="lead">
+                            <strong class="lead">Education : </strong>
+                            Computer Science & Engineering Undergraduate
+                        </div>
+                        <div class="lead">
+                            <strong class="lead">Institution : </strong>
+                            Khwaja Moinuddin Chishti Language University, Lucknow
+                        </div>
+                    </div>
+                </div>
+                <div data-aos='fade-right' id="about-me" class="py-5">
+                    <h1 class="text-center">Who am I?</h1>
+                    <hr class="subsection-hr">
+                    <p class="lead">
+
+                        I taught myself programming and I am currently pursuing a B.Tech degree in Computer Science &
+                        Engineering at Khwaja Moinuddin Chishti Language University, Lucknow. I have a strong interest
+                        in the tech field and enjoy constantly exploring new technologies. I like creating stylish
+                        websites with a clean design, user-friendly interface, and well-organized code.
+                    </p>
+                    <p class="lead">
+                        Apart from web development, I also have an interest in Competitive Programming. Other than
+                        coding, I love singing, watching and playing football, and also writing
+                    </p>
+
+                </div>
+                <div data-aos='fade-left' id="connect">
+                    <h1 class="text-center">Connect with Me</h1>
+                    <hr class="subsection-hr">
+                    <div id="connect-links">
+                        <div class="row">
+                            <div class="text-center">
+                                <a href="https://www.linkedin.com/in/santoshkumar8978/">
+                                    <img src="./img/linkedin.png" alt="Linkedin" class="connect-icon">
+                                </a>
+                                <a href="https://github.com/sant60">
+                                    <img src="./img/github.png" alt="Github" class="connect-icon">
+                                </a>
+                                <a href="https://www.facebook.com/santoshkumar440/">
+                                    <img src="./img/facebook.png" class="connect-icon" alt="Facebook">
+                                </a>
+                                <a href="https://www.instagram.com/techno_santosh/">
+                                    <img src="./img/insta.png" class="connect-icon" alt="Instagram">
+                                </a>
+                                <a href="https://wa.me/916392607419">
+                                    <img src="./img/whatsapp.png" alt="Whatsapp" class="connect-icon">
+                                </a>
+                                <a href="mailto:a-8978@kmclu.ac.in">
+                                    <img src="./img/gmail.png" alt="Gmail" class="connect-icon">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="tech" class="section">
+        <h1 data-aos='fade-right' class="section-heading">Tech Details</h1>
+        <div class="container">
+            <div class="row py-5">
+                <div data-aos="fade-up" class="col-lg-6 mb-4 mb-md-0" id="win">
+                    <h1 class="text-center">What I Know</h1>
+                    <hr class="subsection-hr">
+                    <h3>Front-End Development</h3>
+                    <p class="lead mb-0">Skilled in building elegant looking sites from scratch, using Bootstrap as CSS
+                        Framework. Proficient in Vanilla Javascript and a beginner in ReactJS. I'm a top CSS Developer
+                        at Sourcer.io and have developed the UI/UX for the startup Bambinos.in</p>
+                    <p class="lead">I build fully responsive sites, accessible and compatible for all screen sizes.</p>
+                    <h3>Full-Stack Development</h3>
+                    <p class="lead mb-0">I use the MERN Stack, and built sites following RESTful routing with a well
+                        structured and organised code</p>
+                    <p class="lead">In the learning phase for PHP</p>
+                    <p class="lead text-center pt-4">
+                        <a href="./img/Santosh_s_Resume (4).pdf" class="lead mb-4" id="resume-btn" target="_blank">
+                            <img src="./img/resume.png" class="mr-3 img-fluid btn-img btn-img-lg" alt="">
+                            View my Resume
+                        </a>
+                    </p>
+                </div>
+                <div data-aos="fade-up" class="col-lg-6" id="mts">
+                    <h1 class="text-center mt-5 mt-lg-0">My Tech Stack</h1>
+                    <hr class="subsection-hr">
+                    <p class="lead text-center">A list of the various languages, frameworks and utilities that I use</p>
+                    <div class="text-center">
+                        <img class="tech-logo" src="https://cdn.svgporn.com/logos/c-plusplus.svg" alt="C++">
+                        <img class="tech-logo" src="https://cdn.svgporn.com/logos/python.svg" alt="Python">
+                        <img class="tech-logo" src="https://cdn.svgporn.com/logos/html-5.svg" alt="HTML-5">
+                        <img class="tech-logo" src="https://cdn.svgporn.com/logos/css-3.svg" alt="CSS-3">
+                        <img class="tech-logo tech-logo-sm" src="https://cdn.svgporn.com/logos/bootstrap.svg"
+                            alt="Bootstrap">
+                        <img class="tech-logo tech-logo-sm" src="https://cdn.svgporn.com/logos/javascript.svg"
+                            alt="Javascript">
+                        <img class="tech-logo tech-logo-sm" src="https://cdn.svgporn.com/logos/react.svg" alt="react">
+                        <img class="tech-logo tech-logo-sm" src="https://cdn.svgporn.com/logos/nodejs.svg" alt="nodeJS">
+                        <img class="tech-logo tech-logo-sm" src="https://cdn.svgporn.com/logos/firebase.svg"
+                            alt=firebase>
+                        <img class="tech-logo" src="https://cdn.svgporn.com/logos/jquery.svg" alt="jquery">
+
+                        <img class="tech-logo tech-logo-sm" src="https://cdn.svgporn.com/logos/redux.svg" alt="redux">
+                        <img class="tech-logo" src="https://cdn.svgporn.com/logos/mongodb.svg" alt="mongodb">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects" class="section">
+        <h1 data-aos='fade-right' class="section-heading">My Projects</h1>
+        <div class="container py-5">
+            <h1 data-aos='zoom-in' class="display-4 text-center">A look at some of the things I've built so far...</h1>
+            <div id="project-cards-region" class="py-5">
+                <div class="row">
+                    <div class="col-md-6 col-xl-3">
+                        <div data-aos='zoom-in-up' class="card">
+                            <div class="card-header p-0">
+                                <img src="./img/CARrentAgency.png" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title text-center">Car Rental Agency</h2>
+                                <hr class="subsection-hr mb-3">
+                                <p class="lead used-skills">Html | CSS | Javascript | PHP | MYSQL</p>
+                                <p class="lead"> Designed a user-friendly Car Rental Agency system with separate
+                                    registrations and logins for Customers and Agencies.
+                                    Agencies can add cars, while Customers can view and rent available cars</p>
+                                <!-- <p class="lead text-danger"> <strong class="lead">NOTE : </strong> This site is not
+                                    mobile-friendly as of yet</p> -->
+                                <div class="py-3 d-flex justify-content-around">
+                                    <a href="https://github.com/Sant60/CAR-AGENCY" class="card-btn"><img
+                                            src="./img/code.png" class="img-fluid btn-img"
+                                            title="Go to Github Repository"> View Code</a>
+                                    <a href="https://carrentagency.000webhostapp.com/" class="card-btn"><img
+                                            src="./img/website.png" class="img-fluid btn-img" title="View Site"
+                                            alt="Code"> Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div data-aos='zoom-in-up' class="card">
+                            <div class="card-header p-0">
+                                <img src="./img/currency.png" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title text-center">Currency Convertor</h2>
+                                <hr class="subsection-hr mb-3">
+                                <p class="lead used-skills">Fetch API|Html|Asynchronous JS|CSS|Javascript</p>
+                                <p class="lead">Create a currency converter app that
+                                    converts between different currencies</p>
+                                <div class="py-3 d-flex justify-content-around">
+                                    <a href="#" class="card-btn"><img
+                                            src="./img/code.png" class="img-fluid btn-img" alt="Code"> View Code</a>
+                                    <a href="#" class="card-btn"><img
+                                            src="./img/website.png" class="img-fluid btn-img" alt="Code"> Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-xl-3">
+                        <div data-aos='zoom-in-up' class="card">
+                            <div class="card-header p-0">
+                                <img src="./img/calculator.png" class="card-img-top">
+                            </div>
+                            <div class="card-body">
+                                <h2 class="card-title text-center">Simple Calculator</h2>
+                                <hr class="subsection-hr mb-3">
+                                <p class="lead used-skills">Javascript | Html | CSS</p>
+                                <p class="lead">Developed a simple javascript based calculator for doing simple
+                                    arithmetic task
+                                </p>
+                                <div class="py-3 d-flex justify-content-around">
+                                    <a href="#" class="card-btn"><img
+                                            src="./img/code.png" class="img-fluid btn-img" alt="Code"> View Code</a>
+                                    <a href="#" class="card-btn"><img
+                                            src="./img/website.png" class="img-fluid btn-img" alt="Code"> Site</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <h1 class="display-4 text-center">...and many more small-scale projects</h1>
+                </div>
+            </div>
+            <div id="footer" class="section">
+                <h3 class="text-center">Designed and Developed by Santosh Kumar</h3>
+                <hr>
+                <p class="mb-0 lead text-center">Icons made by <a href="https://www.flaticon.com/authors/freepik"
+                        title="Freepik" class="lead text-white">Freepik</a> from <a href="https://www.flaticon.com/"
+                        class="lead text-white" title="Flaticon">www.flaticon.com</a></p>
+                <p class="lead text-center">Name Logo designed at <a href="https://www.freelogodesign.org"
+                        class="text-white lead">https://www.freelogodesign.org</a> </p>
+                <hr>
+                <p class="text-center mb-0"><a href="https://github.com/Sant60/Final-Portfolio"
+                        class="lead text-white">View
+                        source code for this site</a></p>
+            </div>
+
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+                integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+                integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+                crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+                integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+                crossorigin="anonymous"></script>
+            <script
+                src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
+            <script src="js/main.js"></script>
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>
+                AOS.init({
+                    duration: 1000,
+                    mirror: true,
+                    easing: 'ease-in-out'
+                });
+            </script>
+</body>
+
+</html>

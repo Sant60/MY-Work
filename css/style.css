@@ -68,8 +68,8 @@ strong {
 #topnav.scrolled {
   transition: all 0.5s ease-in;
   border-bottom: 1px solid gray;
-  background-image:linear-gradient(black,rgb(59, 59, 59)); 
-  color: white;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
 }
 
 #name-logo {
@@ -96,13 +96,13 @@ strong {
 
 .nav-item {
   padding: 20px 40px !important;
-  color: rgb(37, 6, 6) !important;
+  color: rgb(255, 255, 255) !important;
   font-size: 1.2rem;
 }
 
 .nav-item.scrolled {
   padding: 20px 40px !important;
-  color: rgb(255, 255, 255) !important;
+  color: rgb(0, 0, 0) !important;
   font-weight: bold;
 }
 
@@ -114,13 +114,13 @@ strong {
 /* COVER REGION */
 
 #cover {
-  background: url("../img/topbackground.jpeg") ;
+  background: url("../img/topbackground.jpeg");
 
   height: 100vh;
-width:100vw;
+  width: 100vw;
   background-size: cover;
 }
-#win{
+#win {
   border-top: 2px solid rgb(100, 176, 6);
   border-right: 2px solid rgb(100, 176, 6);
   border-radius: 30%;
@@ -129,31 +129,31 @@ width:100vw;
   transition: all 0.5s ease-in;
 }
 
-#win:hover{
+#win:hover {
   border: 1px solid white;
-    background: #000;
-    color: white;
-    border-radius: 0px;
- 
+  background: #000;
+  color: white;
+  border-radius: 0px;
 }
-#win #resume-btn{
+#win #resume-btn {
   background: #ea6602;
   color: white;
 }
-#win #resume-btn:hover,:focus{
+#win #resume-btn:hover,
+:focus {
   background: #000;
   border-color: white;
 }
 
 .overlay {
   padding: 0px 50px;
-  /* background-color: rgba(7, 8, 1, 0.8); */
+  background-color: rgba(7, 8, 1, 0.8);
   height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  color: rgb(50, 3, 3);
+  color: rgb(255, 255, 255);
 }
 
 /* ABOUT SECTION */

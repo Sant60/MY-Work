@@ -27,6 +27,7 @@ function execute() {
   else setTimeout(execute, 100);
 }
 
+
 const navbar = document.getElementById("topnav");
 const nameLogo = document.getElementById("name-logo");
 const navItems = document.querySelectorAll(".nav-item");

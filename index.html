@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
         integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap"
         rel="stylesheet">
     <!-- <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css"> -->
@@ -33,97 +34,137 @@
                 <a data-aos='fade-down' class="nav-item nav-link" href="#tech">Tech</a>
                 <a data-aos='fade-down' class="nav-item nav-link" href="#projects">Projects</a>
             </div>
+            <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Switch theme" aria-pressed="false">
+                <span class="theme-toggle-track">
+                    <span class="theme-toggle-thumb"></span>
+                </span>
+                <span class="theme-toggle-label">Light Mode</span>
+            </button>
         </div>
     </nav>
     <div id="cover">
         <div class="overlay">
-            <h1 data-aos='fade-left' class="display-1">Hello, I'm Santosh</h1>
-            <h1 data-aos='fade-left' class="display-3">Welcome to my Website</h1>
+            <div class="hero-badge" data-aos='fade-down'>AI Inspired Portfolio Experience</div>
+            <h1 data-aos='fade-left' class="display-1 hero-title">Designing fast, modern web experiences with creative
+                energy.</h1>
+            <p data-aos='fade-left' class="hero-text">I'm Santosh Kumar, a frontend-focused developer building polished
+                interfaces, responsive products, and ambitious ideas with clean code.</p>
+            <div class="hero-actions" data-aos='fade-up'>
+                <a href="#projects" class="hero-btn hero-btn-primary">Explore Projects</a>
+                <a href="./img/Santosh_SDE_Resume.pdf" target="_blank" class="hero-btn hero-btn-secondary">Open
+                    Resume</a>
+            </div>
+            <div class="hero-stats" data-aos='fade-up'>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">Frontend</span>
+                    <span class="hero-stat-label">Responsive UI craft</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">MERN</span>
+                    <span class="hero-stat-label">Full-stack foundation</span>
+                </div>
+                <div class="hero-stat">
+                    <span class="hero-stat-number">Creative</span>
+                    <span class="hero-stat-label">Design + code mindset</span>
+                </div>
+            </div>
         </div>
     </div>
     <div id="about" class="section">
         <h1 data-aos='fade-right' class="section-heading">About Me</h1>
-        <div class="container d-flex flex-column align-items-center py-5">
-            <h1 data-aos='fade-up' class="display-3">Santosh Kumar</h1>
-            <h1 data-aos='fade-up' class="display-4">
-                I'm a
-                <span class="display-4" id="traits"
-                    traits='["Frontend Developer", "Competitive Programmer", "Musician"]'></span>
-            </h1>
-            <hr>
-            <div id="intro" class="pt-5">
-                <div class="row">
-                    <div class="col-lg-5 mb-4 mb-md-0 col img-col">
-                        <div data-aos='fade-right' class="img-fluid rounded-circle" alt="Profile Image"
-                            id="profile-img"></div>
-                    </div>
-                    <div data-aos='fade-left' class="col-lg-7 col">
-                        <div class="lead">
-                            <strong class="lead">Date of Birth : </strong>
-                            8 July 2003
-                        </div>
-                        <div class="lead">
-                            <strong class="lead">Phone : </strong>
-                            +91 6392607419
-                        </div>
-                        <div class="lead">
-                            <strong class="lead">City : </strong>
-                            Lucknow, India
-                        </div>
-                        <div class="lead">
-                            <strong class="lead">Email : </strong>
-                            santosh8978kumar@gmail.com
-                        </div>
-                        <div class="lead">
-                            <strong class="lead">Education : </strong>
-                            Computer Science & Engineering Undergraduate
-                        </div>
-                        <div class="lead">
-                            <strong class="lead">Institution : </strong>
-                            Khwaja Moinuddin Chishti Language University, Lucknow
-                        </div>
-                    </div>
+        <div class="container py-5">
+            <div class="intro-shell">
+                <div class="intro-header text-center">
+                    <div data-aos='fade-up' class="eyebrow">Human creativity meets modern interface engineering</div>
+                    <h1 data-aos='fade-up' class="display-3">Santosh Kumar</h1>
+                    <h1 data-aos='fade-up' class="display-4">
+                        I'm a
+                        <span class="display-4" id="traits"
+                            traits='["Frontend Developer", "Competitive Programmer", "Musician"]'></span>
+                    </h1>
                 </div>
-                <div data-aos='fade-right' id="about-me" class="py-5">
-                    <h1 class="text-center">Who am I?</h1>
-                    <hr class="subsection-hr">
-                    <p class="lead">
-
-                        I taught myself programming and I have completed my B.Tech degree in Computer Science &
-                        Engineering from Khwaja Moinuddin Chishti Language University, Lucknow. I have a strong interest
-                        in technical field and enjoy constantly exploring new technologies. I like creating stylish
-                        websites with a clean design, user-friendly interface, and well-organized code.
-                    </p>
-                    <p class="lead">
-                        And I am eager to join a reputated company to work on real-world projects and gain experience in
-                        the field of software development.
-                    </p>
-
-                </div>
-                <div data-aos='fade-left' id="connect">
-                    <h1 class="text-center">Connect with Me</h1>
-                    <hr class="subsection-hr">
-                    <div id="connect-links">
-                        <div class="row">
-                            <div class="text-center">
-                                <a href="https://www.linkedin.com/in/codewithsantosh/">
-                                    <img src="./img/linkedin.png" alt="Linkedin" class="connect-icon">
-                                </a>
-                                <a href="https://github.com/sant60">
-                                    <img src="./img/github.png" alt="Github" class="connect-icon">
-                                </a>
-                                <a href="https://www.facebook.com/santoshkumar440/">
-                                    <img src="./img/facebook.png" class="connect-icon" alt="Facebook">
-                                </a>
-                                <a href="https://www.instagram.com/wannabe_santo/">
-                                    <img src="./img/insta.png" class="connect-icon" alt="Instagram">
-                                </a>
-                                <a href="https://wa.me/916392607419">
-                                    <img src="./img/whatsapp.png" alt="Whatsapp" class="connect-icon">
-                                </a>
-                                <a href="mailto:santosh8978kumar@gmail.com">
-                                    <img src="./img/gmail.png" alt="Gmail" class="connect-icon">
-                                </a>
+                <div id="intro" class="pt-5">
+                    <div class="row align-items-center intro-grid">
+                        <div class="col-lg-5 mb-4 mb-md-0 col img-col">
+                            <div class="profile-frame" data-aos='fade-right'>
+                                <div class="img-fluid rounded-circle" alt="Profile Image" id="profile-img"></div>
+                            </div>
+                        </div>
+                        <div data-aos='fade-left' class="col-lg-7 col">
+                            <div class="detail-grid">
+                                <div class="detail-item">
+                                    <span class="detail-label">Date of Birth</span>
+                                    <span class="detail-value">8 July 2003</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Phone</span>
+                                    <span class="detail-value">+91 6392607419</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">City</span>
+                                    <span class="detail-value">Lucknow, India</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Email</span>
+                                    <span class="detail-value">santosh8978kumar@gmail.com</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Education</span>
+                                    <span class="detail-value">Computer Science & Engineering Undergraduate</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-label">Institution</span>
+                                    <span class="detail-value">Khwaja Moinuddin Chishti Language University,
+                                        Lucknow</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos='fade-right' id="about-me" class="content-panel py-5">
+                        <h1 class="text-center">Who am I?</h1>
+                        <hr class="subsection-hr">
+                        <p class="lead">
+                            I taught myself programming and completed my B.Tech degree in Computer Science &
+                            Engineering from Khwaja Moinuddin Chishti Language University, Lucknow. I enjoy exploring
+                            new technologies and transforming ideas into interfaces that feel smooth, modern, and
+                            user-friendly.
+                        </p>
+                        <p class="lead">
+                            I'm eager to contribute to real-world products, grow with strong teams, and create digital
+                            experiences that look refined while staying practical and performance-focused.
+                        </p>
+                    </div>
+                    <div data-aos='fade-left' id="connect" class="content-panel">
+                        <h1 class="text-center">Connect with Me</h1>
+                        <hr class="subsection-hr">
+                        <div id="connect-links">
+                            <div class="row">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/codewithsantosh/" class="connect-link">
+                                        <img src="./img/linkedin.png" alt="Linkedin" class="connect-icon">
+                                        <span>LinkedIn</span>
+                                    </a>
+                                    <a href="https://github.com/sant60" class="connect-link">
+                                        <img src="./img/github.png" alt="Github" class="connect-icon">
+                                        <span>GitHub</span>
+                                    </a>
+                                    <a href="https://www.facebook.com/santoshkumar440/" class="connect-link">
+                                        <img src="./img/facebook.png" class="connect-icon" alt="Facebook">
+                                        <span>Facebook</span>
+                                    </a>
+                                    <a href="https://www.instagram.com/wannabe_santo/" class="connect-link">
+                                        <img src="./img/insta.png" class="connect-icon" alt="Instagram">
+                                        <span>Instagram</span>
+                                    </a>
+                                    <a href="https://wa.me/916392607419" class="connect-link">
+                                        <img src="./img/whatsapp.png" alt="Whatsapp" class="connect-icon">
+                                        <span>WhatsApp</span>
+                                    </a>
+                                    <a href="mailto:santosh8978kumar@gmail.com" class="connect-link">
+                                        <img src="./img/gmail.png" alt="Gmail" class="connect-icon">
+                                        <span>Email</span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -134,7 +175,7 @@
     <div id="tech" class="section">
         <h1 data-aos='fade-right' class="section-heading">Tech Details</h1>
         <div class="container">
-            <div class="row py-5">
+            <div class="row py-5 align-items-stretch">
                 <div data-aos="fade-up" class="col-lg-6 mb-4 mb-md-0" id="win">
                     <h1 class="text-center">What I Know</h1>
                     <hr class="subsection-hr">
@@ -157,7 +198,7 @@
                     <h1 class="text-center mt-5 mt-lg-0">My Tech Stack</h1>
                     <hr class="subsection-hr">
                     <p class="lead text-center">A list of the various languages, frameworks and utilities that I use</p>
-                    <div class="text-center">
+                    <div class="text-center tech-grid">
                         <img class="tech-logo" src="https://cdn.svgporn.com/logos/c-plusplus.svg" alt="C++">
                         <img class="tech-logo" src="https://cdn.svgporn.com/logos/python.svg" alt="Python">
                         <img class="tech-logo" src="https://cdn.svgporn.com/logos/html-5.svg" alt="HTML-5">
@@ -183,7 +224,8 @@
     <div id="projects" class="section">
         <h1 data-aos='fade-right' class="section-heading">My Projects</h1>
         <div class="container py-5">
-            <h1 data-aos='zoom-in' class="display-4 text-center">A look at some of the things I've built so far...</h1>
+            <h1 data-aos='zoom-in' class="display-4 text-center">Selected work blending functionality, interface design,
+                and personality.</h1>
             <div id="project-cards-region" class="py-5">
                 <div class="row">
                     <div class="col-md-6 col-xl-3">
@@ -242,7 +284,6 @@
                                 <p class="lead used-skills">Javascript | Html | CSS</p>
                                 <p class="lead">Developed a simple Html Css and javascript based game site where you can
                                     download games online.</p>
-                                </p>
                                 <div class="py-3 d-flex justify-content-around">
                                     <a href="https://github.com/Sant60/SkaterGames" class="card-btn"><img
                                             src="./img/code.png" class="img-fluid btn-img" alt="Code"> View Code</a>
@@ -263,7 +304,6 @@
                                 <p class="lead used-skills">Javascript | Html | CSS</p>
                                 <p class="lead">Developed a simple Html CSS javascript based Spotify frontend clone
                                     with a responsive design and a clean interface</p>
-                                </p>
                                 <div class="py-3 d-flex justify-content-around">
                                     <a href="https://github.com/Sant60/Musical" class="card-btn"><img
                                             src="./img/code.png" class="img-fluid btn-img" alt="Code"> View Code</a>
@@ -273,7 +313,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-xl-3">
+                    <!-- <div class="col-md-6 col-xl-3">
                         <div data-aos='zoom-in-up' class="card">
                             <div class="card-header p-0">
                                 <img src="./img/currency.png" class="card-img-top">
@@ -294,7 +334,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
 
                     <h1 class="display-4 text-center">...and many more small-scale projects</h1>
                 </div>

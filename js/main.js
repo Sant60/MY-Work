@@ -31,6 +31,53 @@ function execute() {
 const navbar = document.getElementById("topnav");
 const nameLogo = document.getElementById("name-logo");
 const navItems = document.querySelectorAll(".nav-item");
+const themeToggle = document.getElementById("theme-toggle");
+const themeToggleLabel = themeToggle
+  ? themeToggle.querySelector(".theme-toggle-label")
+  : null;
+const THEME_STORAGE_KEY = "portfolio-theme";
+
+function applyTheme(theme) {
+  const isLight = theme === "light";
+  document.body.classList.toggle("light-theme", isLight);
+
+  if (themeToggle) {
+    themeToggle.setAttribute("aria-pressed", String(isLight));
+    themeToggle.setAttribute(
+      "aria-label",
+      isLight ? "Current theme: Light Mode" : "Current theme: Dark Mode"
+    );
+  }
+
+  if (themeToggleLabel) {
+    themeToggleLabel.textContent = isLight ? "Light Mode" : "Dark Mode";
+  }
+}
+
+function getPreferredTheme() {
+  const savedTheme = localStorage.getItem(THEME_STORAGE_KEY);
+
+  if (savedTheme === "light" || savedTheme === "dark") {
+    return savedTheme;
+  }
+
+  return window.matchMedia("(prefers-color-scheme: light)").matches
+    ? "light"
+    : "dark";
+}
+
+applyTheme(getPreferredTheme());
+
+if (themeToggle) {
+  themeToggle.addEventListener("click", () => {
+    const nextTheme = document.body.classList.contains("light-theme")
+      ? "dark"
+      : "light";
+
+    applyTheme(nextTheme);
+    localStorage.setItem(THEME_STORAGE_KEY, nextTheme);
+  });
+}
 
 window.onscroll = () => {
   if (window.scrollY > 10) {

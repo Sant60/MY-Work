@@ -1,6 +1,6 @@
 # Santosh Kumar Portfolio
 
-A modern personal portfolio built to present work, technical range, and product thinking in one clean experience.
+This is my personal portfolio, which I have built to present my tech stack and my web development mindset in one clean experience.
 
 This project is more than a static profile page. It is a frontend-focused portfolio designed to communicate how I approach UI polish, responsiveness, visual hierarchy, and user experience. The goal was simple: make the first impression feel intentional, fast, and memorable.
 
@@ -89,11 +89,11 @@ While building this project, I paid special attention to:
 
 ## What I’d Improve Next
 
-If this portfolio continues evolving, the next improvements I would prioritize are:
+If this portfolio continues evolving, the next improvements I would prioritise are:
 
 - converting repeated project markup into reusable components
 - improving accessibility checks and keyboard states further
-- optimizing external asset loading
+- optimising external asset loading
 - adding a dedicated deployment workflow
 - adding deeper case-study pages for featured projects
 
